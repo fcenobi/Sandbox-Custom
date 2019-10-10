@@ -1,0 +1,13 @@
+<Configuration>
+    <vgpu>Enable</vgpu>
+    <Networking>Enable</Networking>
+    <MappedFolders>
+        <MappedFolder>
+            <HostFolder>F:\Sandbox\Files</HostFolder>
+            <ReadOnly>true</ReadOnly>
+        </MappedFolder>
+    </MappedFolders>
+    <LogonCommand>
+        <Command>Powershell.exe -ExecutionPolicy Bypass -F C:\users\wdagutilityaccount\desktop\Files\oobe.ps1</Command>
+    </LogonCommand>
+</Configuration>
